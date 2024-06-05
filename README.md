@@ -11,7 +11,9 @@ AMB82 Forest Buddy Functions
 - Send picture to server via FTP or SFTP
 - Send Sensor Data - SHT30
 - Send Sensor Data - DHT22
-- Send Sensor Data - 
+- Send Sensor Data 
+
 Review / combine the following code samples:
+Examples: AmebaMultimedia/CaptureJPEG
 
 
