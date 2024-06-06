@@ -12,7 +12,7 @@ Setting up the AMD82-ForestBuddy
 AMB82 Forest Buddy Functions
 - Take picture every minute
 - Send picture to server via FTP or SFTP
-- Send Sensor Data - SHT30: Arduino sketch: AMB82-DHT 
+- Send Sensor Data - SHT30: Arduino sketch: AMB82-mini-DHT(AMB82-mini-DHT.ino) 
 - Send Sensor Data - DHT22
 - Send Sensor Data 
 
