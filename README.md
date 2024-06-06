@@ -2,6 +2,9 @@
 Setting up the AMD82-ForestBuddy
 
 ## Steps: 
+- Install Arduino 2.x.x
+- Install CH340 Driver
+- Install DHT Sensor Library 
 
 ## Notes: 
 
