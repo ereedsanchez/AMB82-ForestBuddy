@@ -2,7 +2,7 @@
 #include <WiFi.h>
 #include <WiFiClient.h> 
 #include "esp_camera.h"
-#define CAMERA_MODEL_ESP_EYE
+#define CAMERA_MODEL_AI_THINKER
 #include <ESP32_FTPClient.h>
 #include "camera_pins.h"
 
