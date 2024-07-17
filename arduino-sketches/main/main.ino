@@ -30,7 +30,7 @@ void takePictureAndUpload() {
   }
   ftp.OpenConnection();
   // Connect to FTP server
-  if (ftp.isConnected() == true) {
+  while (ftp.isConnected() == true) {
     // Upload the image
     ftp.InitFile("Type A");
     ftp.MakeDir("Images");
@@ -39,6 +39,11 @@ void takePictureAndUpload() {
     ftp.WriteData(fb->buf, fb->len);
     ftp.CloseFile();
     ftp.CloseConnection();
+    break;
+  }
+  else{
+    Serial.println("Connection failed... retrying in 3 seconds.");
+    delay(3000);
   }
 
   // Release the camera buffer
